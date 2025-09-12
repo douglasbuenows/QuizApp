@@ -1,6 +1,7 @@
 // components/QuizScreen.tsx
 
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { colors } from '../styles/colors';
 
 // Definimos o formato de um objeto de pergunta para reutilizar o tipo
 type Question = {
@@ -26,7 +27,6 @@ export default function QuizScreen({
   onOptionPress,
   onNextQuestion,
 }: QuizScreenProps) {
-
   const getOptionStyle = (option: string) => {
     if (selectedOption) {
       const isCorrect = option === currentQuestion.correctAnswer;
@@ -42,7 +42,6 @@ export default function QuizScreen({
 
   return (
     <View style={styles.container}>
-       {/* A View do placar foi removida daqui, pois a lógica de placar agora está no componente pai */}
       <View style={styles.questionContainer}>
         <Text style={styles.questionText}>{currentQuestion.question}</Text>
       </View>
@@ -69,16 +68,69 @@ export default function QuizScreen({
   );
 }
 
-// Os estilos continuam os mesmos
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#f0f8ff', padding: 16, paddingVertical: 60},
-  questionContainer: { flex: 1, backgroundColor: '#ffffff', borderRadius: 12, padding: 16, justifyContent: 'center', marginBottom: 20 },
-  questionText: { fontSize: 20, fontWeight: 'bold', textAlign: 'center' },
-  optionsContainer: { flex: 1, justifyContent: 'space-around' },
-  option: { backgroundColor: '#ffffff', padding: 16, borderRadius: 12, borderWidth: 2, borderColor: '#e0e0e0' },
-  optionText: { fontSize: 18 },
-  correctOption: { borderColor: '#4CAF50', backgroundColor: '#D4EDDA', borderWidth: 2 },
-  incorrectOption: { borderColor: '#F44336', backgroundColor: '#F8D7DA', borderWidth: 2 },
-  nextButton: { backgroundColor: '#007BFF', padding: 15, borderRadius: 12, marginTop: 20, alignItems: 'center' },
-  nextButtonText: { color: '#ffffff', fontSize: 18, fontWeight: 'bold' },
+  container: {
+    flex: 1,
+    backgroundColor: colors.background,
+    padding: 16,
+    paddingVertical: 60,
+  },
+  questionContainer: {
+    flex: 1,
+    backgroundColor: colors.white,
+    borderRadius: 20,
+    padding: 20,
+    justifyContent: 'center',
+    marginBottom: 20,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+  },
+  questionText: {
+    fontSize: 22,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: colors.black,
+  },
+  optionsContainer: {
+    flex: 2,
+    justifyContent: 'center',
+  },
+  option: {
+    backgroundColor: colors.white,
+    padding: 20,
+    borderRadius: 15,
+    borderWidth: 2,
+    borderColor: colors.disabled,
+    marginBottom: 15,
+  },
+  optionText: {
+    fontSize: 18,
+    color: colors.black,
+  },
+  correctOption: {
+    borderColor: colors.correct,
+    backgroundColor: '#D4EDDA',
+  },
+  incorrectOption: {
+    borderColor: colors.incorrect,
+    backgroundColor: '#F8D7DA',
+  },
+  nextButton: {
+    backgroundColor: colors.primary,
+    padding: 20,
+    borderRadius: 15,
+    marginTop: 20,
+    alignItems: 'center',
+  },
+  nextButtonText: {
+    color: colors.white,
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
 });

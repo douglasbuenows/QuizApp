@@ -1,4 +1,5 @@
 import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { colors } from '../styles/colors';
 
 // Usando TypeScript para definir os "tipos" de props que esperamos receber
 type ResultScreenProps = {
@@ -27,27 +28,30 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f0f8ff',
+    backgroundColor: colors.background,
+    padding: 16,
   },
   title: {
     fontSize: 32,
     fontWeight: 'bold',
     marginBottom: 20,
-    color: '#333',
+    color: colors.black,
+    textAlign: 'center',
   },
   scoreText: {
     fontSize: 24,
     marginBottom: 40,
-    color: '#555',
+    color: colors.black,
+    textAlign: 'center',
   },
   button: {
-    backgroundColor: '#007BFF',
-    paddingVertical: 15,
-    paddingHorizontal: 30,
-    borderRadius: 12,
+    backgroundColor: colors.primary,
+    paddingVertical: 20,
+    paddingHorizontal: 40,
+    borderRadius: 15,
   },
   buttonText: {
-    color: '#ffffff',
+    color: colors.white,
     fontSize: 18,
     fontWeight: 'bold',
   },
