@@ -1,0 +1,77 @@
+[
+  {
+    "question": "O que é autoconhecimento no contexto da saúde mental?",
+    "options": ["Saber informações sobre outras pessoas", "A capacidade de entender seus próprios sentimentos, pensamentos e comportamentos", "Acumular conhecimento acadêmico", "Ignorar suas emoções para ser mais produtivo"],
+    "correctAnswer": "A capacidade de entender seus próprios sentimentos, pensamentos e comportamentos"
+  },
+  {
+    "question": "Qual das seguintes práticas pode ajudar a desenvolver o autoconhecimento?",
+    "options": ["Assistir televisão excessivamente", "Evitar momentos de solidão", "Meditação e mindfulness", "Focar apenas nas opiniões alheias"],
+    "correctAnswer": "Meditação e mindfulness"
+  },
+  {
+    "question": "Qual é um sinal comum de esgotamento (burnout)?",
+    "options": ["Sentimento constante de energia e entusiasmo", "Exaustão emocional, cinismo e sensação de ineficácia", "Aumento da produtividade e criatividade", "Melhora nos relacionamentos interpessoais"],
+    "correctAnswer": "Exaustão emocional, cinismo e sensação de ineficácia"
+  },
+  {
+    "question": "O que significa ter uma mentalidade de crescimento (growth mindset)?",
+    "options": ["Acreditar que suas habilidades são fixas e imutáveis", "Ver desafios como oportunidades de aprendizado e desenvolvimento", "Evitar qualquer tipo de feedback negativo", "Desistir facilmente diante de obstáculos"],
+    "correctAnswer": "Ver desafios como oportunidades de aprendizado e desenvolvimento"
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é um componente da inteligência emocional?",
+    "options": ["Autoconsciência", "Empatia", "Habilidades sociais", "Inteligência lógico-matemática"],
+    "correctAnswer": "Inteligência lógico-matemática"
+  },
+  {
+    "question": "O que são 'gatilhos' emocionais?",
+    "options": ["Situações, palavras ou sensações que provocam uma reação emocional intensa e imediata", "Eventos que sempre trazem felicidade", "Pessoas que nos motivam a ser melhores", "Comidas que melhoram o humor"],
+    "correctAnswer": "Situações, palavras ou sensações que provocam uma reação emocional intensa e imediata"
+  },
+  {
+    "question": "Qual a importância de estabelecer limites saudáveis nos relacionamentos?",
+    "options": ["Isso afasta as pessoas e gera solidão", "É uma forma de controlar os outros", "Ajuda a proteger seu bem-estar emocional e a manter relações equilibradas", "Não tem impacto na saúde mental"],
+    "correctAnswer": "Ajuda a proteger seu bem-estar emocional e a manter relações equilibradas"
+  },
+  {
+    "question": "A prática da gratidão está associada a qual benefício para a saúde mental?",
+    "options": ["Aumento do estresse", "Foco em pensamentos negativos", "Melhora do humor e redução de sintomas depressivos", "Isolamento social"],
+    "correctAnswer": "Melhora do humor e redução de sintomas depressivos"
+  },
+  {
+    "question": "O que é a síndrome do impostor?",
+    "options": ["Uma crença de que você é superior a todos", "A incapacidade de reconhecer as próprias conquistas, sentindo-se uma fraude", "Um distúrbio de personalidade narcisista", "A vontade de enganar os outros para obter vantagens"],
+    "correctAnswer": "A incapacidade de reconhecer as próprias conquistas, sentindo-se uma fraude"
+  },
+  {
+    "question": "Qual destes hábitos é fundamental para a manutenção de uma boa saúde mental?",
+    "options": ["Privação de sono para trabalhar mais", "Manter uma dieta desequilibrada", "Prática regular de atividade física", "Evitar qualquer tipo de interação social"],
+    "correctAnswer": "Prática regular de atividade física"
+  },
+  {
+    "question": "O que significa 'validar' os próprios sentimentos?",
+    "options": ["Ignorá-los completamente", "Julgar-se por sentir algo 'errado'", "Reconhecer e aceitar suas emoções sem julgamento", "Deixar que as emoções controlem todas as suas ações"],
+    "correctAnswer": "Reconhecer e aceitar suas emoções sem julgamento"
+  },
+  {
+    "question": "Qual o papel da psicoterapia no processo de autoconhecimento?",
+    "options": ["Resolver todos os problemas do paciente magicamente", "Oferecer um espaço seguro para explorar pensamentos e emoções com um profissional", "Julgar as decisões do paciente", "Não tem relação com o autoconhecimento"],
+    "correctAnswer": "Oferecer um espaço seguro para explorar pensamentos e emoções com um profissional"
+  },
+  {
+    "question": "O que são crenças limitantes?",
+    "options": ["Ideias positivas que nos impulsionam", "Opiniões de outras pessoas sobre nós", "Pensamentos e convicções que nos impedem de alcançar nosso potencial", "Regras sociais que devemos seguir"],
+    "correctAnswer": "Pensamentos e convicções que nos impedem de alcançar nosso potencial"
+  },
+  {
+    "question": "Qual a diferença entre estresse e ansiedade?",
+    "options": ["São exatamente a mesma coisa", "Estresse é uma resposta a uma ameaça presente, enquanto ansiedade é uma preocupação com uma ameaça futura", "Ansiedade é sempre positiva e o estresse é sempre negativo", "Apenas o estresse tem sintomas físicos"],
+    "correctAnswer": "Estresse é uma resposta a uma ameaça presente, enquanto ansiedade é uma preocupação com uma ameaça futura"
+  },
+  {
+    "question": "Por que a autocompaixão é importante para a saúde mental?",
+    "options": ["É um sinal de fraqueza e autoindulgência", "Leva à procrastinação e falta de responsabilidade", "Aumenta a autocrítica e o perfeccionismo", "Ajuda a lidar com dificuldades e falhas de uma maneira mais gentil e resiliente"],
+    "correctAnswer": "Ajuda a lidar com dificuldades e falhas de uma maneira mais gentil e resiliente"
+  }
+]
